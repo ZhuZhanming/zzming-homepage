@@ -1,5 +1,3 @@
-user.file.dir: D:\\projects\\files
-note.file.dir: notes
 spring:
   thymeleaf:
     cache: false
