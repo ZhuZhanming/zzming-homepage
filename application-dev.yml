@@ -1,0 +1,16 @@
+user.file.dir: D:\\projects\\files
+note.file.dir: notes
+spring:
+  thymeleaf:
+    cache: false
+  redis:
+    database: 0
+    host: localhost
+    port: 6379
+    password: '{cipher}AQBZUCKc6o0idDK31iPUAN09nludQv1P8GinMgThV/lL7dd8ihqEwtSIUiNBOGVTaVPViEgqAI18VUYMnWa27GBA4wBR92+Am8IF2bE1USkaLXz49swacxZbFC2CSsuq4kXigsGEYZNFEHgEguIPT5/Wl4DEjPY9LvIMh0y2uE0u/KNL20tX1EqblyXL1MYbGJTeu4mjoGa59VW6UPhUC21J/S30fCj0qspb+bcm5qB6lh0lJnA7KUPI7lUXCEkOQiL5bJN2/SMqB6i48r7+6LP5cd+Yw1dWdG9A1Z2WSsUyx7A0QoHhfKrfmGjLggGZ9e+axvj/SPzNFJVPyPko2wPfwbjGhNR2ubWxQJAsGdANDtxWl0g3fWEKfkpkayYLTWk='
+    pool:
+      max-active: 8
+      max-wait: -1
+      max-idle: 5
+      min-idle: 1
+    timeout: 0
