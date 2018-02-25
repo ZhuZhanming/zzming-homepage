@@ -1,1 +1,15 @@
-test: ztest
+user.file.dir: /usr/zzming/files
+note.file.dir: /usr/zzming/notes
+spring:
+  redis:
+    database: 0
+    host: '{cipher}AQAsvEiXPK+HU6O80IGLINfGnS6TCtdHXp5qtP7iEkE7MZ3chmYBjQFY8Y9w1eazwtXc4Fl0GXnhne28nFxJayw7nXyi2DVC70skscjvHMqeSwSovpMDI8xCC4bf76A/itzrPhDPvvsB4bDHcBehActrmV5RX7YldvwHQBu7buHJVawweZ/529xnm+ISg/zLWXw95wbUEeiigQDsOrKLiBZLTq5/Xkvy22oy0hPRSZl1KN3Q8Wwx8yynSyGo8bOwjwh1BzkKW/CAcv/7rM20ReulEqKVFkjjwb8U9naqpkul9msnc8Ajq+goh9pakzzBT66aYbl3zsMSoOhIj+OCrDTAoC/clDaNVm41M1hxub3moPjtc2R8VqFnfOmQNwBVBcaEHfq8KTx6RAIJtZkb3BCbGPH9IzHVurSbDsw+uGWQgA=='
+    port: 6379
+    password: '{cipher}AQAqblJ1D4dZ7MUtM0lBeDRMe7lMAagpEC28vBif3tfg9OYn4EHwaS+w90sOc6UGtm5jcAKRsGPta0VB+KPTGoS9nC4amtIvbw+7HossdfQCUEhG75JbwDFIk6+8Q+IegTFaXk1QdhWlXryZpJR2dRtv5V4QsNtInYzVDfFZMaPZiiu7CiDbEbsmPiEDH2njpaxeLaaBqtgWSqp2jktRPJoUJUZMWTvu9Px4/9MWuhcLFw6Xq6qADfTcKDoO4S2VTucSFotikkFBcPAukBTzMJnK55vzZeLvN0jcSlw1W+z/QWdyhxY5c590SpnaCY9qj1YuMDTeR+vu2SjAMnKkIZQAMoafVyVJbohJjyH3Uzb3sKKkMd2Hv4fVjgNpiz+fkko='
+    pool:
+      max-active: 10000
+      max-wait: -1
+      max-idle: 5
+      min-idle: 1
+    timeout: 0
+    
