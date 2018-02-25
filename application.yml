@@ -1,0 +1,15 @@
+spring:
+  http:
+    multipart:
+      max-file-size: 100MB
+      max-request-size: 500MB
+  mail:
+    host: smtp.qq.com
+    username: 1020030139@qq.com
+    password: '{cipher}AQAdCVYnZrqE/AFs7zdgIvlqBX0R43kQtWWEAFbY9cK6MUhyD/zomHjNlpF/3LutyU57Ecltx/Y2aLH92MLLcitW7A89Fg2r8qtAu2s9jvNGOQgYCR3NSRegqcUN4iSC7QLwy2Zuf+rgZBOMzGShBfJIcF6nqsIg/bWtL3UmyIErgKkWbk7Tox4lozZWRcnRMS5YvjpqLKlRTH82Q/K8Fnh7/7FNl2qg89E9WLIvxqb9dQuWPgfqYYsXVpZ3c+a3MZGSCrKuFjd+MBG8YHt/wGWf6aBz4Jc77OKQD+SR0SklacnreDflwRzFsIEhVNS5ROknzvBshQBOxC/GH6KlcDt87sGwDyxjTI7IxS9Rg3ZdWYWcV3diVZUVGLSeSC2TBe7H4y/D67CcUgcdeMSWOUql'
+    port: 587
+    properties:
+      mail:
+        smtp:
+          auth: true
+          timeout: 25000
